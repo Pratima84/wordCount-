@@ -1,0 +1,11 @@
+<h1>Welcome to the page</h1>
+Lets count your words.
+
+<form action="{% url 'count' %}"> <!--  search for the name count -->
+    <textarea name='fulltextarea' cols=40 rows=10></textarea><br>
+    <input type="submit" value="Count">
+    <br>
+
+</form>
+
+<a href="{%url 'about'%}">About page</a>
